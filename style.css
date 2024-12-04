@@ -7,7 +7,7 @@
   --bg-black-50:#e8dfec;
   --text-black-900:#302e4d;
   --text-black-700:#504e70;
-  --skin-color:#ec1890;
+  --skin-color:#24248f;
   
 }
 body{
@@ -361,22 +361,18 @@ h3.my-profession{
   line-height: 25px;
   color: var(--text-black-700);}
 
-.about .about-content .personal-info{
+.personal-info{
   flex: 0 0 60%;
   max-width: 60%;
-  background-color: red;
-  margin-top: 40%;
+  margin-top: 40px;
 }
-
-.about .about-content .personal-info .info-item{
+.personal-info .info-item{
   flex: 0 0 50%;
   max-width: 50%;
-  background-color: red;
-  
 }
 
 
-.about .about-content .personal-info .info-item p{
+.personal-info .info-item p{
   font-weight: 600;
   padding: 10px 0;
   font-size: 16px;
@@ -384,54 +380,57 @@ h3.my-profession{
   border-bottom: 1px solid var(--bg-black-50)
 }
 
-.about .about-content .personal-info .info-item p span{
+.personal-info .info-item p span{
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 4px;
   display: inline-block;
 }
 
-.about .about-content .personal-info .buttons{
+.personal-info .buttons{
   margin-top: 30px;
 }
 
 
-.about .about-content .personal-info .buttons .btn {
+.personal-info .buttons .btn {
   margin-right: 15px;
   margin-left: 10px;
 }
 
-.about .about-content .skills{
+.skills{
   flex: 0 0 40%;
   max-width: 40%;
-  background-color: green;
-  margin-top: 40%;
+  margin-top: 40px;
+  
 }
-.about .about-content .skills .skill-item{
+.skills .skill-item{
   flex: 0 0 100;
-  max-width: 100%;
+ 
+ 
   
 }
 
-.about .about-content .skills .skill-item h5{
-line-height: 40;
+.skills .skill-item h5{
+line-height: 40px;
 font-weight: 600;
 font-size: 16px;
 color: var(--text-black-900);
-text-transform: capitalize;
+
 }
 
-.about .about-content .skills .skill-item .progress{
+.skills .skill-item .progress{
   background-color: var(--bg-black-50);
   height: 7px;
   border-radius: 4px;
   width: 100%;
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 15;
 }
-.about .about-content .skills .skill-item{
+.skills .skill-item{
   margin-bottom: 25px;
 }
-.about .about-content .skills .skill-item .progress .progress-in{
+.skills .skill-item .progress .progress-in{
   position: absolute;
   left: 0;
   top: 0;
@@ -440,38 +439,38 @@ text-transform: capitalize;
   background-color: var(--skin-color);
   
 }
-.about .about-content .skills .skill-items .skill-percent{
+.skills .skill-items .skill-percent{
   position: absolute;
   color: var(--text-black-900);
   top: -40px;
   font-weight: 400;
-  line-height: 400px;
+  line-height: 48px;
 }
 
-.about .about.education, 
-.about about-content .experience {
+.education, 
+.experience {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
-  background-color: red;
+  
   
 }
-.about .about-content .experience{
-  background-color: rosybrown;
+.experience{
+  
 }
-.about .about-content h3.title{
+h3 .title{
   font-size: 24px;
   margin-bottom: 30px;
   font-weight: 700;
   color: var(--text-black-900);
 }
 
-.about .about-content .timeline-box{
+.timeline-box{
   flex: 0 0 100%;
   max-width: 100%;
   
 }
-.about .about-content .timeline{
+.timeline{
   background-color: var(--bg-black-100);
   padding: 30px 15px;
   border: 1px solid var(--bg-black-50);
@@ -511,7 +510,7 @@ text-transform: capitalize;
 }
 
 .service .service-item .service-item-inner .icon fa{
-  font-size: 40px;
+  font-size: 60px;
   line-height: 60px;
   color: var(--skin-color);
   transition: all 0.3s ease;
